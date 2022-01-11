@@ -1,32 +1,43 @@
 import React from "react";
-import "./header.css"
+import "./header.css";
+import logo from "./logo.svg"
 function Header() {
   return (
     <div className="header">
       <div className="header__content">
         <div className="logo">
-          <img src="" alt="" />
+          <img src={logo} alt="" />
+          <div> </div>
+          <p className="logo-text" >
+          Дезинфекция <br /> Бишкек
+          </p>
         </div>
         <div className="navbar">
-          <ul className="navbar-nav">
-            <li className="nav-item active">
+          <ul className="navbar__nav">
+            <li className="nav-item">
               <a className="nav-link" href="#">
-                Home <span className="sr-only">(current)</span>
+              Главная
+              </a>
+            </li>
+            
+            <li className="nav-item">
+              <a className="nav-link" href="#">
+              Химчистка
               </a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#">
-                Features
+              График
               </a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#">
-                Pricing
+              Услуги
               </a>
             </li>
             <li className="nav-item">
               <a className="nav-link disabled" href="#">
-                Disabled
+              Контакты
               </a>
             </li>
           </ul>

@@ -1,0 +1,20 @@
+.form__content {
+    padding: 80px 0 80px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.form__content-number input {
+    width: 400px;
+    height: 73px;
+    border: 1px solid #B165D4
+}
+
+.form__content-number button {
+    font-size: 25px;
+    background-color: #A43DD4;
+    color: #fff;
+    border: none;
+    padding: 20px 30px 20px 30px;
+    border-radius: 25px;    
+}
