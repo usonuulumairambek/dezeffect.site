@@ -7,14 +7,29 @@
 .form__content-number input {
     width: 400px;
     height: 73px;
-    border: 1px solid #B165D4
+    border: 2px solid #B165D4;
+    outline: 2px solid #B165D4;
+    margin: 0 10px 0 0;
+    color: #333;
+    font-size: 20px;
+    padding: 0 10px 0 10px;
+
 }
 
-.form__content-number button {
+.form__content-number input:active {
+    border: none;
+}
+
+.form__content-number span {
     font-size: 25px;
     background-color: #A43DD4;
     color: #fff;
     border: none;
     padding: 20px 30px 20px 30px;
-    border-radius: 25px;    
+    border-radius: 25px;
+}
+
+.form__content-number a {
+    text-decoration: none;
+
 }

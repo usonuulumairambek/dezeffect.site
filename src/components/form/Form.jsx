@@ -1,12 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 import "./form.css";
 function Form() {
+  let text;
+  let link = `https://wa.me/996559167474?text=${text}`;
   return (
     <div className="form">
       <div className="form__content">
-        <form className="form__content-number" action="/post/123">
+        <form className="form__content-number">
           <input type="text" />
-          <button>Заказать звонок</button>
+          <a href={link} target="_blank">
+            <span>Заказать звонок</span>
+          </a>
         </form>
       </div>
     </div>

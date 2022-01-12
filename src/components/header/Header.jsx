@@ -1,6 +1,7 @@
 import React from "react";
 import "./header.css";
-import logo from "./logo.svg"
+import logo from "./logo.svg";
+import burger from "./menu.png"
 function Header() {
   return (
     <div className="header">
@@ -41,6 +42,7 @@ function Header() {
               </a>
             </li>
           </ul>
+          <img className="menu" src={burger} alt="" />
         </div>
       </div>
     </div>

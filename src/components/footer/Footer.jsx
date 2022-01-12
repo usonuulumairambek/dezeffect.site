@@ -23,12 +23,18 @@ function Footer() {
         </div>
         <div className="footer__container-item">
           <h2>Контакты</h2>
-          <a href="tel:996504114488">+996-504-11-44-88</a>
+          <a href="tel:996504114488">+996-504-11-44-88</a> <br />
           <a href="tel:996709167474">+996-709-16-74-74</a>
-          <div>
-            <img src={wh} alt="" />
-            <img src={fb} alt="" />
-            <img src={ins} alt="" />
+          <div className="socialnetwork">
+            <a href="https://wa.me/996559167474" target="_blank">
+              <img src={wh} alt="" />
+            </a>
+            {/* <a href="">
+              <img src={fb} alt="" />
+            </a> */}
+            <a href="https://www.instagram.com/dez_proff/">
+              <img src={ins} alt="" />
+            </a>
           </div>
         </div>
       </div>
