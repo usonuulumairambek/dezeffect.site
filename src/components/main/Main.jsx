@@ -15,7 +15,7 @@ function Main() {
             сегодня за 1 час. Раз и на всю <br /> жизнь всесте с гарантией на 3
             года
           </p>
-          <a href="https://wa.me/996559167474" target="_blank">
+          <a href="https://wa.me/996559167474" target="_blank" rel="noreferrer">
             <button>Заказать дезинфекцию</button>
           </a>
         </div>

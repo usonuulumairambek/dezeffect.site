@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./form.css";
 function Form() {
   let text;
@@ -11,7 +11,7 @@ function Form() {
             <input type="text" placeholder="0509 909 443" />
           </div>
           <div className="form__content-link">
-            <a href={link} target="_blank">
+            <a href={link} target="_blank" rel="noreferrer">
               Заказать звонок
             </a>
           </div>

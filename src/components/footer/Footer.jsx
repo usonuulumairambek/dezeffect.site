@@ -26,7 +26,7 @@ function Footer() {
           <a href="tel:996504114488">+996-504-11-44-88</a> <br />
           <a href="tel:996709167474">+996-709-16-74-74</a>
           <div className="socialnetwork">
-            <a href="https://wa.me/996559167474" target="_blank">
+            <a href="https://wa.me/996559167474" target="_blank" rel="noreferrer">
               <img src={wh} alt="" />
             </a>
             {/* <a href="">
