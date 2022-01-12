@@ -13,6 +13,7 @@
 
 .benefits__container {
     width: 1200px;
+    margin: 0 2% 0 2%;
     display: flex;
     align-items: center;
 }
@@ -44,3 +45,23 @@
     flex-direction: column;
     justify-content: space-around;
 }
+@media screen and (max-width: 988px) {
+.benefits__container {
+    margin: 0 2% 0 2%;
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+    
+}
+.benefits__container-info {
+    width: 100%;
+    margin-left: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.benefits__container-line{
+    display: none;
+}
+  }

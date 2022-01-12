@@ -1,7 +1,7 @@
 import React from "react";
 import "./footer.css";
 import ins from "./images/wh.svg";
-import fb from "./images/ins.svg";
+// import fb from "./images/ins.svg";
 import wh from "./images/fb.svg";
 function Footer() {
   return (

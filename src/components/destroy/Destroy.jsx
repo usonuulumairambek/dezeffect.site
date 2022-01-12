@@ -16,6 +16,7 @@ function Destroy() {
         <div className="destroy__box">
           <div className="destroy__box-item">
             <img src={img1} alt="" />
+            <p></p>
           </div>
           <div className="destroy__box-item">
             <img src={img2} alt="" />

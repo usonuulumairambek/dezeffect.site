@@ -6,12 +6,16 @@ function Form() {
   return (
     <div className="form">
       <div className="form__content">
-        <form className="form__content-number">
-          <input type="text" />
-          <a href={link} target="_blank">
-            <span>Заказать звонок</span>
-          </a>
-        </form>
+        <div className="form__content-number">
+          <div>
+            <input type="text" placeholder="0509 909 443" />
+          </div>
+          <div className="form__content-link">
+            <a href={link} target="_blank">
+              Заказать звонок
+            </a>
+          </div>
+        </div>
       </div>
     </div>
   );
