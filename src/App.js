@@ -1,9 +1,7 @@
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
-import Benefits from "./components/benefits/Benefits";
-import Destroy from "./components/destroy/Destroy";
+import Cleaning from "./components/cleaning/Cleaning";
 import Footer from "./components/footer/Footer";
-import Form from "./components/form/Form";
 import Header from "./components/header/Header";
 import Main from "./components/main/Main";
 
@@ -12,13 +10,19 @@ function App() {
     <BrowserRouter>
       <div className="App">
         <Header />
+        {/* <switch>
+          <Route path="/cleaning">
+            
+          </Route>
+        </switch> */}
         <div className="app__content">
-          <Main />
-          <Destroy />
-          <h2 className="app__benefits">Наши преимущества:</h2>
-          <Benefits />
-          <Form />
+          <Routes>
+            <Route path="/" element={<Main />} />
+            <Route path="/home" element={<Main />} />
+            <Route path="/cleaning" element={<Cleaning />} />
+          </Routes>
         </div>
+
         <Footer />
       </div>
     </BrowserRouter>

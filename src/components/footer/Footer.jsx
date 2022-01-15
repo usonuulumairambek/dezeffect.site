@@ -23,8 +23,8 @@ function Footer() {
         </div>
         <div className="footer__container-item">
           <h2>Контакты</h2>
-          <a href="tel:996504114488">+996-504-11-44-88</a> <br />
-          <a href="tel:996709167474">+996-709-16-74-74</a>
+          <a href="tel:996559167474">+996-559-16-74-74</a> <br />
+          <a href="tel:99670916747  4">+996-709-16-74-74</a>
           <div className="socialnetwork">
             <a href="https://wa.me/996559167474" target="_blank" rel="noreferrer">
               <img src={wh} alt="" />
