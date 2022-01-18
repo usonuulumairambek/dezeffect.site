@@ -1,3 +1,21 @@
-.cleaning {
-    background-color: red;
+.cleaning__container-tittle {
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 100px
+}
+
+.cleaning__container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.cleaning__container-item {
+    width: 30%;
+
+}
+
+.cleaning__container-items {
+    border: 1px solid red;
 }
