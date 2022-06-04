@@ -1,0 +1,120 @@
+.price {
+    display: flex;
+    justify-content: center;
+}
+
+.price-container {
+    width: 1200px;
+}
+
+.price-container h1 {
+    font-family: "Montserrat";
+    color: #222;
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+
+.price__navbar {
+    display: flex;
+    justify-content: center;
+}
+
+.price__navbar-item {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #222;
+    font-size: 15px;
+    width: 200px;
+    height: 50px;
+    background: #E8E8E8;
+    box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    border: none;
+    margin: 20px;
+
+}
+
+.price__content-items {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 10px;
+
+}
+
+thead {
+    color: #fff;
+    background-color: rgb(48, 48, 48);
+    padding: 10px;
+}
+
+tr th {
+    padding: 20px;
+    color: #fff;
+    font-family: "Montserrat";
+}
+
+tr td {
+    padding: 20px;
+    color: rgb(0, 0, 0);
+    font-family: "Montserrat";
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text_left {
+    color: #fff;
+    background-color: rgb(255, 71, 0);
+}
+
+table {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.price__news {
+    font-family: "Montserrat";
+    max-width: 250px;
+}
+
+
+.price__news h3 {
+    font-size: 13px;
+
+}
+
+.price__news p {
+    margin-top: 5px;
+
+}
+
+.price__content-item {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* .price__new img */
+.price__news-tittle {
+    height: 80px;
+}
+
+@media screen and (max-width: 600px) {
+    tr th {
+        padding: 10px;
+        color: #fff;
+        font-family: "Montserrat";
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    table {
+        font-size: 15px;
+    }
+
+    tr td {
+        padding: 10px;
+    }
+}

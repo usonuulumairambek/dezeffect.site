@@ -8,7 +8,7 @@ function Form() {
       <div className="form__content">
         <div className="form__content-number">
           <div>
-            <input type="text" placeholder="0509 909 443" />
+            <input type="text" placeholder="0559 16 74 74" />
           </div>
           <div className="form__content-link">
             <a href={link} target="_blank" rel="noreferrer">

@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-
+import "./header.css"
 function Navlinks(props) {
   let navlinkData = [
     {
@@ -12,8 +12,8 @@ function Navlinks(props) {
       text: "Химчистка",
     },
     {
-      url: "/schedule",
-      text: "График",
+      url: "/price",
+      text: "Цены",
     },
     {
       url: "/services",
