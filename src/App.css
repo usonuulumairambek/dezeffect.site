@@ -6,3 +6,7 @@
     margin: 30px 0 10px 0;
 
 }
+
+*:focus {
+    border: none;
+}

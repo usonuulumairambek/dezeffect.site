@@ -19,7 +19,7 @@
     -moz-box-shadow: 0px 0px 21px 1px rgba(34, 60, 80, 0.2);
     box-shadow: 0px 0px 21px 1px rgba(34, 60, 80, 0.2);
     border-radius: 20px;
-    width: 90%;
+    width: 1200px;
     margin: 0 20px 0 20px;
 }
 
@@ -50,4 +50,5 @@
     font-family: 'Montserrat', sans-serif;
     color: #00A558;
     font-size: 35px;
+    margin: 50px 0 50px 0;
 }

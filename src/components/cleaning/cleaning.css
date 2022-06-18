@@ -44,12 +44,19 @@
 }
 
 .cleaning__container-subtittle {
-    max-width: 90%;
+    width: 1200px;
 
 }
 
-.cleaning__container-subtittle p {
+.cleaning__container-sub {
+    display: flex;
+    justify-content: center;
+    padding: 0 10px 0 10px;
+}
+
+.cleaning p {
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
-
+    width: 1200px;
+    text-align: center;
 }

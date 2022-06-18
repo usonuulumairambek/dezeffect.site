@@ -5,6 +5,7 @@ import Destroy from "../destroy/Destroy";
 import Benefits from "../benefits/Benefits";
 import Form from "../form/Form";
 import Cleaning from "../cleaning/Cleaning";
+import Sliders from "../slider/Sliders";
 function Main() {
   return (
     <div>
@@ -34,15 +35,14 @@ function Main() {
           </div>
         </div>
       </div>
+      <Sliders />
       <Destroy />
       <Cleaning />
       <h2 className="app__benefits">Наши преимущества:</h2>
       <Benefits />
       <Form />
       <div className="to__price">
-      <div className="to__price-container">
-        
-      </div>
+        <div className="to__price-container"></div>
       </div>
     </div>
   );

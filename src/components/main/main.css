@@ -2,9 +2,16 @@ span {
     color: #00A558;
 }
 
+.main {
+    display: flex;
+    justify-content: center;
+}
+
 .main__content {
     display: flex;
-    margin: 8% 3% 10% 3%;
+    width: 1200px;
+    margin-top: 110px;
+    margin-bottom: 110px;
 }
 
 .main__content-info {
@@ -21,7 +28,7 @@ span {
 }
 
 .main__content-img img {
-    width: 100%;
+    max-width: 500px;
 }
 
 .main__content-info h1 {
