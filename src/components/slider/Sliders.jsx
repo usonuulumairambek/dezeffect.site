@@ -8,7 +8,28 @@ import arrowright from "./images/arrowright.svg";
 // Banners
 import FirstBanner from "./images/firstbanner.jpg";
 function Sliders() {
-  const Settings = {};
+  const SliderData = [
+    {
+      class: "slider__container-link",
+      href: "https://wa.me/996559167474",
+      imgSrc: FirstBanner,
+      imgAlt: "Скидка дезинфекцию в Бишкеке",
+    },
+
+    {
+      class: "slider__container-link",
+      href: "https://wa.me/996559167474",
+      imgSrc: FirstBanner,
+      imgAlt: "Скидка дезинфекцию в Бишкеке",
+    },
+
+    {
+      class: "slider__container-link",
+      href: "https://wa.me/996559167474",
+      imgSrc: FirstBanner,
+      imgAlt: "Скидка дезинфекцию в Бишкеке",
+    },
+  ];
   return (
     <div>
       <div>
@@ -19,26 +40,15 @@ function Sliders() {
           prevArrow={<img style={{ width: 20 }} src={arrowleft}></img>}
           nextArrow={<img style={{ width: 20 }} src={arrowright}></img>}
         >
-          <div>
-            <a className="slider__container-link" href="#">
-              <img src={FirstBanner} alt="" />
-            </a>
-          </div>
-          <div>
-            <a className="slider__container-link" href="#">
-              <img src={FirstBanner} alt="" />
-            </a>
-          </div>
-          <div>
-            <a className="slider__container-link" href="#">
-              <img src={FirstBanner} alt="" />
-            </a>
-          </div>
-          <div>
-            <a className="slider__container-link" href="#">
-              <img src={FirstBanner} alt="" />
-            </a>
-          </div>
+          {SliderData.map((i) => {
+            return (
+              <div>
+                <a className={i.class} href={i.href}>
+                  <img src={i.imgSrc} alt={i.imgAlt} />
+                </a>
+              </div>
+            );
+          })}
         </Slider>
       </div>
     </div>
